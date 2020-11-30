@@ -6,6 +6,8 @@
 
     <title>Component Library | Portfolio</title>
 
+    <link href="/styles.css" rel="stylesheet">
+
 </head>
 <body>
     <h1>Varun Raikar's Component Library</h1>
@@ -30,18 +32,18 @@
 
     <h3>Fluid container</h3>
 
-    <div>This is a fluid container and it will go at the end of the page.</div>
+    <div class="container container-fluid">This is a fluid container and it will go at the end of the page.</div>
 
     <h3>Centered container</h3>
 
-    <div>This is a centered container and it will go till the specified width.</div>
+    <div class="container container-centre">This is a centered container and it will go till the specified width.</div>
 
     <hr >
 
     <h2>@Links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link primary-link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
 
     <hr >
 
@@ -51,7 +53,7 @@
 
     <div>We don't want to show bullets in unordered list we will remove it in CSS.</div>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
@@ -59,15 +61,15 @@
 
     <h3>unordered Inline List</h3>
 
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
+    <ul class="list-non-bullet">
+        <li class="list-items-inline">Inline item one</li>
+        <li class="list-items-inline">Inline item two</li>
+        <li class="list-items-inline">Inline item three</li>
     </ul>
 
     <h3>reverse order List</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>bread</li>
         <li>eggs</li>
@@ -77,12 +79,12 @@
 
     <h2>@Nav</h2>
 
-    <nav>
-        <div>IAMBRAND</div>
-        <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/">PROJECTS</a></li>
-            <li><a href="/">BLOG</a></li>
+    <nav class="navigation container">
+        <div class="navbrand">IAMBRAND</div>
+        <ul class="list-non-bullet text-align">
+            <li class="list-items-inline"><a class="link link-active" href="/">HOME</a></li>
+            <li class="list-items-inline"><a class="link" href="/">PROJECTS</a></li>
+            <li class="list-items-inline"><a class="link" href="/">BLOG</a></li>
         </ul>
     </nav>
 
@@ -90,9 +92,9 @@
 
     <h2>@Header</h2>
 
-    <header>
-        <img src="/Images/header.svg">
-        <h1>Name and Profession</h1>
+    <header class="hero">
+        <img class="hero-image" src="/Images/header.svg">
+        <h1 class="hero-text">Varun Raikar the <span style="color: var(--primary-color)">Web Developer</span> </h1>
     </header>
 
     <hr >
