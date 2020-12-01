@@ -1,45 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body{
-    font-family: 'Montserrat', 
-    sans-serif;
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 0px;
 }
 
-:root{
+:root {
     --primary-color: #1D4ED8;
     --secondary-color: grey;
+    --off-white: rgb(223, 223, 223);
 }
 
 /** Container **/
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-centre{
+.container-centre {
     max-width: 600px;
     margin: auto;
 }
 
 /** Links **/
 
-.link
-{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: white;
 }
 
-.primary-link
-{
+.primary-link {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
 }
 
-.secondary-link
-{
+.secondary-link {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 0.5rem;
@@ -51,55 +50,89 @@ hr {
 
 /** Lists **/
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-items-inline{
+.list-items-inline {
     display: inline;
-    padding : 0rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 /** Navigation **/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 00.5rem;
 }
 
-.navigation .text-align{
+.navigation .text-align {
     color: white;
     text-align: right;
 }
 
-.navigation .navbrand{
+.navigation .navbrand {
     font-weight: bold;
     font-size: large;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
 /** Header **/
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     max-width: 350px;
     display: block;
     text-align: center;
     margin: auto;
 }
 
-.hero .hero-text{
+.hero .hero-text {
     padding-top: 1rem;
     text-align: center;
     color: var(--secondary-color);
 }
 
 /** Section **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.grey{
+    background-color: var(--off-white);
+}
+
+/** Footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 0.5rem;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
