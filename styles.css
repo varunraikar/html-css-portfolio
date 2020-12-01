@@ -104,12 +104,12 @@ hr {
 /** Section **/
 
 .section{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .grey{
@@ -126,6 +126,9 @@ hr {
     border-top-right-radius: 0.5rem;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+}
 
 .footer-link {
     text-decoration: none;
