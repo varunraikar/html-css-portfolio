@@ -22,6 +22,7 @@ body {
 .container-centre {
     max-width: 600px;
     margin: auto;
+    padding-bottom: 2rem;
 }
 
 /** Links **/
@@ -138,4 +139,11 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer-fixed{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
